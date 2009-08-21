@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>TopCloud</string>
+	<key>ordering</key>
+	<array>
+		<string>87012187-0AC4-4596-86E3-D6767769C2D5</string>
+		<string>CB912674-61C6-4118-8259-125A5CBD3A51</string>
+	</array>
+	<key>uuid</key>
+	<string>107AA057-F89A-447A-9C5F-C7B545AA0DEA</string>
+</dict>
+</plist>
