@@ -18,6 +18,6 @@ Dialog width: 400, height: 250
 		options: {ruby: "Ruby", "javascript": "Javascript", "python": "Python"}
 
 	TextEntry left: 10, top: 40, right: 10, bottom: 50
-		value: "Enter text here"
+		value: @remote_text
 		multiline: true
 
