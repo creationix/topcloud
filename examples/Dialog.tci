@@ -1,0 +1,23 @@
+Dialog width: 400, height: 250
+	minWidth: 300
+	minHeight: 200
+	title: "Hello World"
+	
+	Toolbar left: 0, bottom: 0, right: 0, height: 40
+		Button left: 10, top: 10, width: 65, height: 20
+			value: "Cancel"
+			icon: "cancel"
+			click: @cancel
+		Button right: 10, top: 10, width: 68, height: 20
+			value: "Submit"
+			icon: "check"
+			click: @submit
+
+	DropDown left: 10, top: 10, right: 10, height: 20
+		value: "ruby"
+		options: {ruby: "Ruby", "javascript": "Javascript", "python": "Python"}
+
+	TextEntry left: 10, top: 40, right: 10, bottom: 50
+		value: "Enter text here"
+		multiline: true
+
