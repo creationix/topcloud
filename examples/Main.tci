@@ -1,0 +1,11 @@
+
+// This is a test file with four corners anchored
+Label right: 20, height: 20, bottom: 20
+	value: "Bottom Right"
+Label left: 20, height: 20, bottom: 20
+	value: "Bottom Left"
+Label right: 20, height: 20, top: 20
+	value: "Top Right"
+Label left: 20, height: 20, top: 20
+	value: "Top Left"
+
