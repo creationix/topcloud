@@ -4,5 +4,9 @@
 (function ($) {
 	
 	Main = Object.create(TC.Controller);
+	
+	Main.open_dialog = function (button) {
+		TC.render_interface("Dialog.js");
+	}
 
 }(jQuery));

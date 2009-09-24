@@ -6,6 +6,7 @@ Label left: 20, height: 20, bottom: 20
 	value: "Bottom Left"
 Label right: 20, height: 20, top: 20
 	value: "Top Right"
-Label left: 20, height: 20, top: 20
-	value: "Top Left"
-
+Button left: 20, top: 20, width: 90, height: 20
+	value: "Open Dialog"
+	icon: "open"
+	click: @open_dialog
