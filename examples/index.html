@@ -9,10 +9,9 @@
 		<script src="../lib/TC.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(function () {
-				TC.initialize("../lib/", function () {
-					TC.render_interface('Main.js');
-					//TC.render_interface('Dialog.js');
-				});
+				TC.set_path("../lib/");
+				TC.render_interface('Main.js');
+				//TC.render_interface('Dialog.js');
 			});
 		</script>
 		<style type="text/css">
