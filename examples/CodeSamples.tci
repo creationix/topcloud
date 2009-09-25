@@ -1,9 +1,11 @@
 Dialog width: 400, height: 250
 	minWidth: 300
 	minHeight: 200
-	title: "Hello World"
+	title: "Code Samples"
 	
-	Toolbar left: 0, bottom: 0, right: 0, height: 40
+	Panel left: 0, bottom: 0, right: 0, height: 40
+		borderTop: 1
+	
 		Button left: 10, top: 10, width: 65, height: 20
 			value: "Cancel"
 			icon: "cancel"

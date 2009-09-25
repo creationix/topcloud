@@ -1,0 +1,14 @@
+Dialog width: 300, height: 220
+	minWidth: 250
+	minHeight: 150
+	title: "Bind Example"
+	
+	TextEntry left: 10, top: 10, right: 10, bottom: 100
+		value: @shared_value
+		multiline: true
+	
+	TextEntry left: 10, height: 80, right: 10, bottom: 10
+		value: @shared_value
+		multiline: true
+		
+

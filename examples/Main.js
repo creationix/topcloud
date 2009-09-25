@@ -5,8 +5,12 @@
 	
 	Main = Object.create(TC.Controller);
 	
-	Main.open_dialog = function (button) {
-		TC.render_interface("Dialog.js");
-	}
+	Main.code_samples = function (button) {
+		TC.render_interface("CodeSamples.js");
+	};
+
+	Main.bind_sample = function (button) {
+		TC.render_interface("BindSample.js");
+	};
 
 }(jQuery));

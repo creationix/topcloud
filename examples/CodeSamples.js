@@ -36,15 +36,15 @@ function TextSource() {
 
 (function ($) {
 	
-	Dialog = Object.create(TC.Controller);
+	CodeSamples = Object.create(TC.Controller);
 	
-	Dialog.bindData({proxy: new TextSource(), as: "remote_text"});
+	CodeSamples.bindData({proxy: new TextSource(), as: "remote_text"});
 	
-	Dialog.cancel = function (button) {
+	CodeSamples.cancel = function (button) {
 		button.parent.parent.close();
 	}
 
-	Dialog.submit = function (button) {
+	CodeSamples.submit = function (button) {
 		alert("TODO: Do some action");
 		button.parent.parent.close();
 	}
