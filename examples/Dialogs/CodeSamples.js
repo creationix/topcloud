@@ -1,7 +1,7 @@
 /*jslint white: true, onevar: true, undef: true, nomen: true, eqeqeq: true, plusplus: true, bitwise: true, regexp: true, newcap: true, immed: true */
-/*globals TC, jQuery, Dialog */
+/*globals TC, jQuery, Dialogs */
 
-CodeSamplesController = function () {
+TC.defineController("Dialogs.CodeSamples", function () {
 
 	this.bindData("remote_text", {
 		proxy: new TextSource()
@@ -16,5 +16,4 @@ CodeSamplesController = function () {
 		button.parent.parent.close();
 	};
 	
-};
-CodeSamplesController.prototype = TC.Controller;
+});

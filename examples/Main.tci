@@ -6,9 +6,9 @@ Label right: 20, height: 20, top: 20
 	value: "Top Right"
 Button left: 20, top: 20, width: 110, height: 20
 	value: "Code Samples"
-	icon: "open"
+	icon: "gear"
 	click: @code_samples
 Button right: 20, bottom: 20, width: 110, height: 20
 	value: "Bind Sample"
-	icon: "open"
+	icon: "clock"
 	click: @bind_sample

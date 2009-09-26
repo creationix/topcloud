@@ -1,15 +1,14 @@
 /*jslint white: true, onevar: true, undef: true, nomen: true, eqeqeq: true, plusplus: true, bitwise: true, regexp: true, newcap: true, immed: true */
-/*globals TC, jQuery, Main */
+/*globals TC, jQuery*/
 
-MainController = function (params) {
+TC.defineController("Main", function (params) {
 	
 	this.code_samples = function (button) {
-		TC.render_interface("CodeSamples.js");
+		TC.render_interface("Dialogs/CodeSamples.js");
 	};
 
 	this.bind_sample = function (button) {
-		TC.render_interface("BindSample.js");
+		TC.render_interface("Dialogs/BindSample.js");
 	};
 
-}
-MainController.prototype = TC.Controller;
+});
