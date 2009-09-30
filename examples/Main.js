@@ -4,7 +4,7 @@
 TC.defineController("Main", function (params) {
 	
 	this.code_samples = function (button) {
-		TC.render_interface("Dialogs/CodeSamples.js");
+		TC.render_interface("Dialogs/CodeSamples.js", "ruby");
 	};
 
 	this.bind_sample = function (button) {
