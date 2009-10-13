@@ -2,6 +2,8 @@
 
 High level application framework for Javascript (built on top of haml-js and modeled somewhat after SproutCore)
 
+I gave a 30 minute presentation to my local Ruby users group about TopCloud and related technologies.  You can view it on [vimeo][]
+
 This framework is very much a work in progress.  I'm giving a presentation on it at the local Dallas Ruby Group for October's meeting.  I'll post a recording of the presentation if possible.
 
 The source code to my example site is at the node-topcloud-chat repo.
@@ -66,3 +68,5 @@ Here is an example controller:
     	};
 	
     });
+
+[vimeo]: http://www.vimeo.com/6940290
